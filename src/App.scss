@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+/*=========================================
+** BOOTSTRAP **
+==========================================*/
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./styles/variables";
+@import "./styles/cakes";
+@import "./styles/header";

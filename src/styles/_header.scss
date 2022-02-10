@@ -1,0 +1,33 @@
+.header {
+  &-content {
+    background-color: #76818E;
+    padding: $theme-padding;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 38px;
+    width: 100%;
+    z-index: 10;
+  }
+
+  
+
+  &-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $theme-header-size;
+    font-weight: $theme-header-weight;
+    padding-right: $theme-padding;
+  }
+
+  &-cta {
+    display: flex;
+    align-items: center;
+    button {
+      margin-left: $theme-padding;
+      height: 34px;
+    }
+  }
+}

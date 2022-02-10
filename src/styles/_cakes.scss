@@ -1,0 +1,54 @@
+.cakes {
+  
+  &-create-component,
+  &-update-component {
+    
+    .form-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: $theme-padding;
+      padding-left: $theme-padding;
+
+
+      form {
+        width: 50%;
+      }
+      
+      .buttons-container {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: $theme-padding;
+      }
+  
+      .cake-image {
+        max-height: 250px;
+      }
+
+    }
+  }
+
+  &-list-component {
+
+    .cakes-grid {
+      width: 80%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: $theme-padding;
+
+      .cake {
+        width: 200px;
+        text-align: center;
+
+        &-title {
+          font-weight: $theme-header-weight;
+          font-size: $theme-header-size;
+        }
+
+        &-image {
+          max-height: 200px;
+        }
+      }
+    }
+  }
+}
