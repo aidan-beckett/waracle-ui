@@ -24,6 +24,7 @@ phases:
     commands:
       - echo Building React app...
       - npm install
+      - npm install --save-dev
       - npm run build
       - echo Building the Docker image...
       - docker build -t $REPOSITORY_URI:$IMAGE_TAG -t $REPOSITORY_URI:$COMMIT_HASH .
