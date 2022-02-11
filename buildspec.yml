@@ -23,7 +23,6 @@ phases:
   build:
     commands:
       - echo Building React app...
-      - npm install -g typescript
       - npm install
       - npm run build
       - echo Building the Docker image...
